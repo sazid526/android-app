@@ -364,7 +364,7 @@
 
                 <!--                for image and text-->
                 <LinearLayout
-                    android:id="@+id/video"
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="3dp"
@@ -441,7 +441,7 @@
 
                 <!--                for image and text-->
                 <LinearLayout
-                    android:id="@+id/video"
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="3dp"
@@ -597,7 +597,7 @@
 
                 <!--                for image and text-->
                 <LinearLayout
-                    android:id="@+id/video"
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="3dp"
@@ -672,7 +672,7 @@
 
                 <!--                for image and text-->
                 <LinearLayout
-                    android:id="@+id/video"
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="3dp"
