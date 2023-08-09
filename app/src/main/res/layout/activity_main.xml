@@ -364,7 +364,7 @@
 
                 <!--                for image and text-->
                 <LinearLayout
-
+                    android:id="@+id/ambulence"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="3dp"
@@ -383,7 +383,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginBottom="3dp"
-                        android:text="ভিডিও"
+                        android:text="এ্যাম্বুলেন্স"
                         android:textColor="#000000"
                         android:textSize="16sp"
 

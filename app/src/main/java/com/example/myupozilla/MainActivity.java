@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
 
-    LinearLayout video,pouro;
+    LinearLayout video,pouro,ambulence;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         video = findViewById(R.id.video);
         pouro = findViewById(R.id.pouro);
+        ambulence = findViewById(R.id.ambulence);
 
 
 
@@ -34,6 +35,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent myIntent = new Intent(MainActivity.this,pouro.class);
+                startActivity(myIntent);
+            }
+        });
+        ambulence.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(MainActivity.this,ambulence.class);
                 startActivity(myIntent);
             }
         });
