@@ -202,7 +202,7 @@
                         android:layout_height="65dp"
                         android:layout_gravity="center"
                         android:src="@drawable/diagnostic1"
-                        android:padding="10dp"
+                        android:padding="12dp"
                         />
 
                     <TextView
@@ -230,7 +230,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="65dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/ambulenceicon" />
+                        android:src="@drawable/ambulenceicon"
+                        android:padding="3dp"
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"

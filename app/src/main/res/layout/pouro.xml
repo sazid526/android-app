@@ -1527,7 +1527,7 @@
             android:orientation="vertical"
             >
             <LinearLayout
-                android:id="@+id/counsilor"
+                android:id="@+id/councilor"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
