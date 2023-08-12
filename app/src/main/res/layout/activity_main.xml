@@ -201,7 +201,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="65dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/clinic" />
+                        android:src="@drawable/diagnostic1"
+                        android:padding="10dp"
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -228,14 +230,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="65dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/fs" />
+                        android:src="@drawable/ambulenceicon" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginBottom="3dp"
-                        android:text="ফিলিং স্টেশন"
+                        android:text="এ্যাম্বুলেন্স"
                         android:textColor="#000000"
                         android:textSize="16sp"
 
@@ -376,14 +378,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="65dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/video" />
+                        android:src="@drawable/petrolpump"
+                        android:padding="8dp"
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginBottom="3dp"
-                        android:text="এ্যাম্বুলেন্স"
+                        android:text="ফিলিং স্টেশন"
                         android:textColor="#000000"
                         android:textSize="16sp"
 

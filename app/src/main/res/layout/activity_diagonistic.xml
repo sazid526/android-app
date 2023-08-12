@@ -19,7 +19,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1.5"
             android:src="@drawable/clinic"
-            android:padding="8dp"/>
+            android:padding="15dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -32,214 +32,141 @@
             />
 
     </LinearLayout>
-    <LinearLayout
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:orientation="horizontal"
-        android:weightSum="2"
-        android:background="@drawable/clinic_design"
-        >
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="#B4DAF8"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        android:layout_marginBottom="3dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight=".5"
-            android:weightSum="3"
-            android:orientation="vertical"
-            >
-            <TextView
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="আলো ডায়াগনিস্টিক সেন্টার"
-                android:textSize="18dp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:gravity="center"
-            />
-            <TextView
+                android:layout_weight=".5"
+                android:weightSum="3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="আলো ডায়াগনিস্টিক সেন্টার"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="ঠিকানাঃ জীবননগর , চুয়াডাঙ্গা"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="মোবাইলঃ ০১৯০২১৭৫০৭৮"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="ঠিকানাঃ জীবননগর , চুয়াডাঙ্গা"
-                android:textColor="@color/black"
-                android:gravity="center"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="মোবাইলঃ ০১৯০২১৭৫০৭৮"
-                android:textColor="@color/black"
-                android:gravity="center"
+                android:layout_weight="1.5"
+                android:background="#EFF2F4"
+                android:src="@drawable/callblue"
+                android:padding="20dp"
                 />
 
         </LinearLayout>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1.5"
-            android:background="#EFF2F4"
-            android:src="@drawable/callblue"
-            android:padding="20dp"
-            />
-
-    </LinearLayout>
-    <LinearLayout
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:orientation="horizontal"
-        android:background="@drawable/clinic_design"
-        android:weightSum="2"
-        >
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="#B4DAF8"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        android:layout_marginBottom="3dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight=".5"
-            android:weightSum="3"
-            android:orientation="vertical"
-            >
-            <TextView
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:textSize="18dp"
-                android:textStyle="bold"
-                android:text="আলো ডায়াগনিস্টিক সেন্টার"
-                android:textColor="@color/black"
-                android:gravity="center"
-                />
-            <TextView
+                android:layout_weight=".5"
+                android:weightSum="3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="আলো ডায়াগনিস্টিক সেন্টার"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="ঠিকানাঃ জীবননগর , চুয়াডাঙ্গা"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="মোবাইলঃ ০১৯০২১৭৫০৭৮"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="ঠিকানাঃ জীবননগর , চুয়াডাঙ্গা"
-                android:textColor="@color/black"
-                android:gravity="center"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="মোবাইলঃ ০১৯০২১৭৫০৭৮"
-                android:textColor="@color/black"
-                android:gravity="center"
+                android:layout_weight="1.5"
+                android:background="#EFF2F4"
+                android:src="@drawable/callblue"
+                android:padding="20dp"
                 />
 
         </LinearLayout>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#EFF2F4"
-            android:layout_weight="1.5"
-            android:src="@drawable/callblue"
-            android:padding="20dp"
-            />
+    </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:orientation="horizontal"
-        android:weightSum="2"
-        android:background="@drawable/clinic_design"
-        >
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight=".5"
-            android:weightSum="3"
-            android:orientation="vertical"
-            >
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="আলো ডায়াগনিস্টিক সেন্টার"
-                android:textSize="18dp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:gravity="center"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="ঠিকানাঃ জীবননগর , চুয়াডাঙ্গা"
-                android:textColor="@color/black"
-                android:gravity="center"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="মোবাইলঃ ০১৯০২১৭৫০৭৮"
-                android:textColor="@color/black"
-                android:gravity="center"
-                />
 
-        </LinearLayout>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1.5"
-            android:src="@drawable/callblue"
-            android:background="#EFF2F4"
-            android:padding="20dp"
-            />
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:orientation="horizontal"
-        android:background="@drawable/clinic_design"
-        android:weightSum="2"
-        >
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight=".5"
-            android:weightSum="3"
-            android:orientation="vertical"
-            >
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="আলো ডায়াগনিস্টিক সেন্টার"
-                android:textSize="18dp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:gravity="center"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="ঠিকানাঃ জীবননগর , চুয়াডাঙ্গা"
-                android:textColor="@color/black"
-                android:gravity="center"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="মোবাইলঃ ০১৯০২১৭৫০৭৮"
-                android:textColor="@color/black"
-                android:gravity="center"
-                />
-
-        </LinearLayout>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#EFF2F4"
-            android:layout_weight="1.5"
-            android:src="@drawable/callblue"
-            android:padding="20dp"
-            />
-
-    </LinearLayout>
 
 
 
